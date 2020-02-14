@@ -3,7 +3,7 @@
 [![Documentation](https://img.shields.io/badge/Map-documentation-brightgreen.svg)](https://github.com/DJNing/MapLeCreusot/blob/master/Documentations/Report/Report.pdf)
 [![GitHub license](https://img.shields.io/badge/license-GNU3-blue.svg)](/LICENSE)
 
->C++  project using Qt GUI depending on [Libosmium](https://github.com/osmcode/libosmium),and [Boost Graph Libray](https://www.boost.org/doc/libs/1_72_0/libs/graph/doc/table_of_contents.html) LibraryLibraries.
+>C++  project using Qt GUI depending on [Libosmium](https://github.com/osmcode/libosmium),and [Boost Graph Libray](https://www.boost.org/doc/libs/1_72_0/libs/graph/doc/table_of_contents.html) Libraries.
 
 ## Authors
 1. * Deng Jianning
