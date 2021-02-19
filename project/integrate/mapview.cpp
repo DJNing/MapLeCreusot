@@ -118,7 +118,7 @@ void MapView::contextMenuEvent(QContextMenuEvent *event)
 
 void MapView::wheelEvent(QWheelEvent *event)
 {
-    if(event->delta()>0)
+    if(event->angleDelta().y() > 0)
     {
         if(m_scale < MAX_SCALE)
         {
@@ -127,7 +127,7 @@ void MapView::wheelEvent(QWheelEvent *event)
             m_scale *= ZOOM_STEP;
         }
     }
-    else if(event->delta() < 0)
+    else if(event->angleDelta().y() < 0)
     {
         if(m_scale >= MIN_SCALE)
         {
@@ -136,7 +136,6 @@ void MapView::wheelEvent(QWheelEvent *event)
             m_scale *= 1/ZOOM_STEP;
         }
     }
-
 }
 
 void MapView::changeToSearch()
