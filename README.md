@@ -22,45 +22,36 @@ Follow the [Documentation](https://github.com/DJNing/MapLeCreusot/blob/master/Do
 
 
 ## Dependencies
-  1.  Boost Need to be installed if you don’t have it. Follow the installation guide below.
+1.  **Boost** has to be installed if you don’t have it. Follow the installation guide below.
 • Windows
 Using vcpkg from Microsoft (https://github.com/microsoft/vcpkg) you can install
 Boost libraries through command line window as following:
-vcpkg install boost.• Ubuntu
-If it is not pre-install in your Ubuntu, a single command should help you do this (for
-Ubuntu 18.04):
-$ apt−get insatll libboost-all-dev
-2.  Libosmium
-This is a header-only library, no need for installation. Just includ the header files in the
-project is OK to go. This is already put in the project repository.
-3.  Protozero
-This is a header-only library, no need for installation. Just includ the header files in the
-project is OK to go. This is already put in the project repository.
-4.  Zlib
-Need to be installed if you don’t have it. Follow the installation guide below.
-• Windows
-Using vcpkg from Microsoft (https://github.com/microsoft/vcpkg) you can install
-Zlib library through command line window as following:
-vcpkg install zlib
+`vcpkg install boost`.
 • Ubuntu
 If it is not pre-install in your Ubuntu, a single command should help you do this (for
 Ubuntu 18.04):
-$ apt-get insatll zlib1g-dev
-5.  Expat
+`$ sudo apt-get install libboost-all-dev`
+2. **Libosmium**
+This is a header-only library, no need for installation. Just includ the header files in the
+project is OK to go. This is already put in the project repository.
+3. **Protozero**
+This is a header-only library, no need for installation. Just includ the header files in the
+project is OK to go. This is already put in the project repository.
+4. **Zlib**
 Need to be installed if you don’t have it. Follow the installation guide below.
 • Windows
-Using vcpkg from Microsoft (https://github.com/microsoft/vcpkg) you can install
-Expat library through command line window as following:
-vcpkg install expat
+`vcpkg install zlib`
 • Ubuntu
-If it is not pre-install in your Ubuntu, a single command should help you do this (for
-Ubuntu 18.04):
-$ apt−get insatll expat
-6.  PThread ( for Linux )
-Use the following command to install the library sudo apt-get install libpthread-stubs0-
-dev
-$ apt−get insatll expat
-
+`$ sudo apt-get install zlib1g-dev`
+5. **Expat**
+Need to be installed if you don’t have it. Follow the installation guide below.
+• Windows
+`vcpkg install expat`
+• Ubuntu
+`$ apt−get insatll expat`
+6. PThread ( for Linux ), Use the following commands to install the library 
+`$ sudo apt-get install libpthread-stubs0-dev`
+`$ sudo apt-get install expat`
 
 ## Known Issues
 
