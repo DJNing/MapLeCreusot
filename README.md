@@ -7,19 +7,11 @@
 >C++  project using Qt GUI depending on [Libosmium](https://github.com/osmcode/libosmium),and [Boost Graph Libray](https://www.boost.org/doc/libs/1_72_0/libs/graph/doc/table_of_contents.html) Libraries.
 
 ## Authors
-1. * Deng Jianning
-2. * Belal Hmedan
+1. **Deng Jianning**
+2. **Belal Hmedan**
 
 ## Supported Platforms
-Officially supports:
  - Linux (Ubuntu16+)
- - Windows (Windows 10)
-
-## Quick Start
-Follow the [Documentation](https://github.com/DJNing/MapLeCreusot/blob/master/Documentations/Report/Report.pdf) *Boost*, *LibOsmium*, *Protozero*, *Zlib*, *Expat*,*PThread*.
-
-
-
 
 
 ## Dependencies

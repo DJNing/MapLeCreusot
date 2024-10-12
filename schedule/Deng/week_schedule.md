@@ -1,4 +1,0 @@
-- [ ] projection for displaying changing lat&lon with mercator
-- [ ] a solution to manage the object in the graphicview coordinate system
-- [ ] a solution to manage the osm object into graphicview item
-- [ ] a solution to deal with zooming level. Ex. at what level the object will be visible or not
