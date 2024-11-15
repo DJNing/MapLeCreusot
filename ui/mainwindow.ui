@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1135</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>30</y>
+      <width>401</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="Navigate_Button">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>384</width>
+       <height>37</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Navigate</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Destination_Lb">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>112</y>
+       <width>384</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>                     Destination</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="Destination_QB">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>143</y>
+       <width>384</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>Aldi Store</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Restaurant Le Fut</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Place Schnider</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Acacias Residence</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>IUT University</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Train Station (Gare du Creusot)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Carrefour Shopping Center</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Condorcet Center University</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hospital Creusot</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BNP PariBank</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Acion Store</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>El-Loco Cafe</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Residence Jean Monnent</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Crous Office &amp; Restaurant</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Euro Lav(Laundry)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Pharmacie des Acacias</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Centre Medico Scolaire (Medical school)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Driving School</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Le Poste</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MCDonld's</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="Source_QB">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>75</y>
+       <width>384</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>Aldi Store</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Restaurant Le Fut</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Place Schnider</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Acacias Residence</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>IUT University</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Train Station (Gare du Creusot)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Carrefour Shopping Center</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Condorcet Center University</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hospital Creusot</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BNP PariBank</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Acion Store</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>El-Loco Cafe</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Residence Jean Monnent</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Crous Office &amp; Restaurant</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Euro Lav(Laundry)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Pharmacie des Acacias</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Centre Medico Scolaire (Medical school)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Driving School</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Le Poste</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MCDonld's</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>89</x>
+       <y>13</y>
+       <width>231</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Belal Hmedan &amp; Deng Jianning</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Source_Lb">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>44</y>
+       <width>384</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>                         Source</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Cancel_Navigation">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>230</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Canncel</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="MapView" name="map">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>230</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1135</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="action_Open_File"/>
+    <addaction name="actionQuit"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <action name="action_Open_File">
+   <property name="text">
+    <string>&amp;Open File</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MapView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">mapview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

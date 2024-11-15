@@ -1,8 +1,37 @@
-dockerfile
-data
-schedule/Deng/database/*.user
-project/build*
-project/integrate/*.user
-project/Algorithms/MyCode/build*
-project/Algorithms/MyCode/Merge_Project_Algo_Working/*.user
-Documentations/presentation/
+# Prerequisites
+*.d
+
+# VSCode
+*.vscode
+
+build/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
