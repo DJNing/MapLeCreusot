@@ -10,9 +10,9 @@
 ## Dependencies
 
 ```sh
-sudo apt-get install libboost-all-dev`
-sudo apt-get install zlib1g-dev`
-sudo apt-get install libpthread-stubs0-dev`
+sudo apt-get install libboost-all-dev
+sudo apt-get install zlib1g-dev
+sudo apt-get install libpthread-stubs0-dev
 sudo apt-get install expat
 sudo apt install libprotozero-dev
 sudo apt install libosmium2-dev
